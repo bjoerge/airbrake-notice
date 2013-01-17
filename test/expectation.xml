@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notice version="2.3"> <api-key>app-key</api-key> <notifier> <name>my-notifier</name> <version>0.3</version> <url>http://my-notifier.com</url> </notifier> <error> <class>ReferenceError</class> <message>novar is not defined</message> <backtrace> <line method="saySomething" file="foo.js" number="4"></line>
+<line method="sayNoVar" file="bar.js" number="29"></line> </backtrace> </error> <request> <url>http://example.com/pages/some-page.html</url> <component>my-component</component> <action>RunExample</action> <cgi-data> <var key="SERVER_NAME">example.org</var>
+<var key="HTTP_USER_AGENT">Mozilla</var> </cgi-data> </request> <server-environment> <project-root>pages/</project-root> <environment-name>production</environment-name> <app-version>1.0/</app-version> </server-environment> </notice>
