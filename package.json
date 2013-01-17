@@ -1,6 +1,6 @@
 {
   "name": "airbrake-notice",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Easy creation of Airbrake (or errbit) error notifications from Node.js or the browser",
   "main": "airbrake-notice.js",
   "repository": {
